@@ -31,8 +31,7 @@ dict_sc = {"200": 0,
 try:
     for line in sys.stdin:
         parsed_line = line.split()
-        parsed_line = parsed_line(::-1)
-
+        parsed_line = parsed_line[::-1]
         if len(parsed_line) > 2:
             counter += 1
 
@@ -47,4 +46,3 @@ try:
                 counter = 0
 finally:
     print_message(dict_sc, total_file_size)
-
