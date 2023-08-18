@@ -2,10 +2,11 @@
 """Rotate 2D Matrix
 """
 
+
 def rotate_2d_matrix(matrix):
     """rotate 2D matirx closewise 90 degree
-    args: 
-      matrix (list[[list]]): a matrix
+    args:
+        matrix (list[[list]]): a matrix
     """
     n = len(matrix)
     for i in range(int(n / 2)):
