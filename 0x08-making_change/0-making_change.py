@@ -2,6 +2,7 @@
 
 """Determine a number of coins for a given total"""
 
+
 def makeChange(coins, total):
     """
     Returns: fewest number of coins needed to meet total
